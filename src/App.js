@@ -227,7 +227,7 @@ function postaviIDZaIzmenu(id){
  
  
  
-    
+       <Route path="/*" element={<NotFound></NotFound>}/>
         
     </Routes>
     <Footer></Footer>
