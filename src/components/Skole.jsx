@@ -4,10 +4,18 @@ import SkolaComponenta from './SkolaComponenta';
 
 function Skole({skole,onAdd,onRemove }) {
     const [sort, setSort] = useState(true);
-    
+    function sortAsc(){
+      
+      setSort(true);
+    }
+    function sortDesc(){
+      
+      setSort(false);
+    }
   return (
     <div>
- 
+         <button className="sortbtn btn" onClick={sortAsc}>Sortiraj rastuće</button>
+        <button className="sortbtn btn" onClick={sortDesc}>Sortiraj opadajuće</button>
         <div className='sveSkole'>
               
         {sort===true?
