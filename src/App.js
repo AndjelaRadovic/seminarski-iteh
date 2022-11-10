@@ -8,15 +8,10 @@ import Slideshow from './components/WelcomePage';
 import LoginPage from './components/LoginPage';
 import RegisterPage from './components/RegisterPage';
 import Kontakt from './components/Kontaks';
-import Inbox from './components/Inbox';
 import Footer from './components/Footer';
-import Zakazi from './components/Zakazi';
-import AdminDashboard from './components/AdminDashboard';
-import Skole from './components/Skole';
-import SkoleAdmin from './components/SkoleAdmin';
-import OmiljeneSkole from './components/OmiljeneSkole';
+
 import NotFound from './components/NotFound';
-import Izmeni from './components/Izmeni';
+
  
 const axiosInstance = axios.create({
   baseURL: process.env.REACT_APP_API_URL,
