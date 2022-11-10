@@ -16,6 +16,8 @@ import Inbox from './components/Inbox';
 import SkoleAdmin from './components/SkoleAdmin';
 import Izmeni from './components/Izmeni';
 import OmiljeneSkole from './components/OmiljeneSkole';
+import Skole from './components/Skole';
+import Zakazi from './components/Zakazi';
 
  
 const axiosInstance = axios.create({
@@ -223,6 +225,11 @@ function postaviIDZaIzmenu(id){
        <Route   path="/register"  element={<RegisterPage  />}/>
        <Route   path="/logout"  element={<LoginPage  />}/> 
        <Route path="/kontakt" element={ <Kontakt></Kontakt>}></Route>
+       <Route path="/zakazi" element={ <Zakazi ambulante={ambulante} vakcine={vakcine}></Zakazi>}></Route>
+
+       <Route path="/skole" element={ <Skole skole={skole} onRemove={removeSKola} onAdd={addSkola}></Skole>}></Route>
+        
+
        <Route path="/skole/omiljene" element={ <OmiljeneSkole skole={omiljene} onRemove={removeSKola} onAdd={addSkola}></OmiljeneSkole>}></Route>
 
        <Route path="/admin/inbox" element={ <Inbox poruke={poruke} ></Inbox>}></Route>
