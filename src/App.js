@@ -11,6 +11,7 @@ import Kontakt from './components/Kontaks';
 import Footer from './components/Footer';
 
 import NotFound from './components/NotFound';
+import AdminDashboard from './components/AdminDashboard';
 
  
 const axiosInstance = axios.create({
@@ -218,6 +219,7 @@ function postaviIDZaIzmenu(id){
        <Route   path="/register"  element={<RegisterPage  />}/>
        <Route   path="/logout"  element={<LoginPage  />}/> 
        <Route path="/kontakt" element={ <Kontakt></Kontakt>}></Route>
+       <Route path="/admin" element={ <AdminDashboard zakazivanja={zakazivanja} vakcine={vakcine}></AdminDashboard>}></Route>
  
  
  
