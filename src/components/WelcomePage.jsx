@@ -20,7 +20,7 @@ const Slideshow = () => {
 
     return (
 
-      <div>
+      <div className='pocetnaStr'>
         
         <Slide easing="ease">
           <div className="each-slide">

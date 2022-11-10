@@ -1,3 +1,7 @@
+
+ .pocetnaStr{
+  background-color: #14265c;
+ }
 /*za navbar*/
 .navbar {
   display: flex;
@@ -22,7 +26,9 @@
   color: antiquewhite;
 }
 
-
+.login , .register, #kontakt{
+  background-color: #14265c;
+}
 
 #kontakt{
   
