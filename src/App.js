@@ -13,6 +13,8 @@ import Footer from './components/Footer';
 import NotFound from './components/NotFound';
 import AdminDashboard from './components/AdminDashboard';
 import Inbox from './components/Inbox';
+import SkoleAdmin from './components/SkoleAdmin';
+import Izmeni from './components/Izmeni';
 
  
 const axiosInstance = axios.create({
@@ -221,10 +223,10 @@ function postaviIDZaIzmenu(id){
        <Route   path="/logout"  element={<LoginPage  />}/> 
        <Route path="/kontakt" element={ <Kontakt></Kontakt>}></Route>
        <Route path="/admin/inbox" element={ <Inbox poruke={poruke} ></Inbox>}></Route>
-
+       <Route path="/admin/skole" element={ <SkoleAdmin skole={skole} deleteskola={deleteSkola} setIzmeniID={postaviIDZaIzmenu}></SkoleAdmin>}></Route>
+       <Route path="/admin/izmeni" element={ <Izmeni id={izmenaID} ></Izmeni>}></Route>
        <Route path="/admin" element={ <AdminDashboard zakazivanja={zakazivanja} vakcine={vakcine}></AdminDashboard>}></Route>
- 
- 
+  
  
  
        <Route path="/*" element={<NotFound></NotFound>}/>
