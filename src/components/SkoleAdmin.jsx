@@ -5,7 +5,12 @@ import { BsFillTrashFill, BsPencilFill } from 'react-icons/bs';
 import { useNavigate } from 'react-router-dom';
 
 function SkoleAdmin({skole,deleteskola,setIzmeniID}) {
-   
+    let navigate = useNavigate();
+    function editSkola(id){
+        setIzmeniID(id);
+    
+         navigate("/admin/izmeni/");
+    }
   return (
      
     <div>
