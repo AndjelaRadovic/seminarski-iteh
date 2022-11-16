@@ -27,7 +27,7 @@ function Footer( ) {
                 <strong>Developed by:</strong> 
               
                
-                <li> <a href=" " target="_blank"> </a></li> 
+                <li> <a href=" " target="_blank"> </a> ATA TEAM</li> 
             </ul>
         </div>  
       
