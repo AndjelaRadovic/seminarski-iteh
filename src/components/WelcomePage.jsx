@@ -38,21 +38,21 @@ const Slideshow = () => {
         <br /><br />
         <div className="flex-container-pocetna">
                         <div>
-                            <h2 className='pocetna-div-naslov'>What is Lorem Ipsum?</h2>
+                            <h2 className='pocetna-div-naslov'>Pogodnosti</h2>
                             <hr className='pocetna-linija'/>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            Zbogom čekanju u redovima, gužvama na šalterima ili pogrešnim brojevima telefona. Elektronska uprava vam omogućuje da veliki broj administrativnih poslova završite daleko komfornije iz svog doma, kancelarije, ili čak u pokretu, putem mobilnih uređaja, tako da vam ostaje više vremena za stvari koje su zaista bitne.
                         </div> 
                         
                         <div>
-                            <h2 className='pocetna-div-naslov'>Why do we use it?</h2>
+                            <h2 className='pocetna-div-naslov'>E-UPRAVA</h2>
                             <hr className='pocetna-linija'/>
-                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+                            Korišćenjem Portala građanima je olakšana komunikacija sa državnim organima i celokupnom javnom administracijom u smislu lakšeg pronalaženja informacija i odgovarajućih formulara, kao i jednostavnijeg podnošenja zahteva, prijema rešenja i ostalih dokumenata.
                         </div>
                         
                         <div >
-                            <h2 className='pocetna-div-naslov'>Where can I get some?</h2>                            
+                            <h2 className='pocetna-div-naslov'>Mogućnosti</h2>                            
                             <hr className='pocetna-linija'/>
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                            Portal omogućava da se određeni postupci pred javnom upravom, koji su se do sada obavljali na šalteru, mogu obaviti i od kuće, odnosno bez fizičkog dolaska na šalter. Na njemu je aktivno gotovo milion korisnika, koji mogu da koriste 900 elektronskih usluga različitih državnih organa, što Portal stavlja u red najviše korišćenih i najposećenijih nacionalnih portala.
                         </div>
                      
              
